@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(27,27,27);
+    color:white;
+    padding-left:210px;
+}
+
+
+div.characterlist{
+    width:90%;
+    max-width:900px;
+}
+
+table.character_slot , table.character_slot td,table.character_slot tr{
+    border:0px;
+    border-collapse:collapse;
+    color:white;
+    margin:0px;
+    padding:0px;
+}
+table.character_slot{
+width:100%;
+}
+table.character_slot td{
+    width:18%;
+}
+div.topbar{
+    
+    position: sticky;
+    top: 0;
+    background-color:rgb(27,27,27);
+}
+span.clock{
+    font-size:32px;
+}
+label.clockcheck{
+    font-size:32px;
+    
+}
+input.clockcheck{
+    margin-left:30px;
+    transform:scale(1.6);
+
+}
+
+div.joblist_table table , div.joblist_table td , div.joblist_table tr{
+    color:white;
+    border:1px solid rgb(40,40,40);
+    border-collapse:collapse;
+    margin:0px;
+    padding:0px;
+    max-width:900px;
+}
+
+img.portrait{
+    width:36px;
+    height:36px;
+}
+img.blueprint_icon{
+    width:36px;
+    height:36px;
+}
+
+div.jobtimer_complete{
+    color:rgb(80,255,100);
+}
+
+img.user_checked, img.user_unchecked,img.user_disabled{
+    margin-bottom:-6px;
+}
+
+div.user_checked, div.user_unchecked, div.user_disabled{
+    height:48px;
+    width:100%;
+    max-width:900px;
+    margin:0px;
+    padding:0px;
+    border-radius:10px;
+    font-size:16px;
+    padding-bottom:4px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    font-family:"evesansneue";
+    
+}
+div.user_checked{    
+    border:2px solid rgb(0,142,26);
+    background-color:rgb(182,230,30);
+    color:rgb(0,82,16);
+}
+div.user_unchecked{
+    border:2px solid rgb(107,107,107);
+    background-color:rgb(174,174,174);
+    color:rgb(30,30,30);
+}
+div.user_disabled{
+    border:2px solid rgb(107,107,107);
+    background-color:rgb(174,174,174);
+    color:rgb(110,110,110);
+}
+
+span.user_checked, span.user_unchecked, span.user_disabled{
+
+    margin:0px;
+    padding:0px;
+
+    
+}
+span.expire_date{
+    position:relative;
+    font-family:"consolas";
+    top:-4px;
+    left:33px;
+    font-size:11px;
+}
